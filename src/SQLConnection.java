@@ -12,7 +12,7 @@ public class SQLConnection {
      String url="jdbc:mysql://" + host + ":" + port + "/" + DBİD;
 
      try{
-         Class.forName("com.mysql.jdbc.Driver")
+         Class.forName("com.mysql.jdbc.Driver");
      }catch(ClassNotFoundException ex){
          System.out.println("Driver Not Found!");
 
